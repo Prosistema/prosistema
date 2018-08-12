@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Foto Estudio</title>
+
+	<link rel="stylesheet" href="css/index_style.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+
+	<!--Titulo de la Ventana-->
+
+	<header>
+		<section class="header_imagen">
+			<h1><img src="pictures/mas.png" border="0" width="20" height="20">
+			Nuevo producto</h1>
+			<input type="button" value=""  id="btn_enviar">
+		</section>
+	</header>
+
+	<!--Elementos del Menu Principal.-->
+
+	<nav>
+
+		<img src="pictures/administrator.png" border="0" width="100" height="100">
+		<div class="barra"></div>
+		<p class="menu">Administrador</p>
+
+		<ul>
+
+			<li><a href="ventas.html">
+				<div class="barra"></div>
+				<p class="menu">Ventas</p></a>
+			</li>
+
+			<li>
+				<div class="barra"></div>
+				<p class="menu">Clientes</p>
+			</li>
+
+			<li>
+				<div class="barra"></div>
+				<p class="menu">Productos</p>
+			</li>
+
+			<li>
+				<div class="barra"></div>
+				<p class="menu">Precíos</p>
+			</li>
+
+			<li>
+				<div class="barra"></div>
+				<p class="menu">Configuración</p>
+			</li>
+		</ul>
+	</nav>
+
+<!--Elementos del fornulario-->
+
+	<section class="seccion_form">
+
+	<form action="" class="form_contact">
+		<h2>Agregar Producto</h2>
+
+		<div class="producto_info">
+
+					<label for="nombre">Nombre del producto *</label> <!--Nombre del producto o servicio.-->
+					<input type="text" id="nombre" >
+
+					<label for="categoria">Categorias *</label> <!--Categria a la que perteenece.-->
+					<input type="text" id="categoria" >
+
+					<label for="descripcion">Descripción </label> <!--Descripcion del servicio o producto.-->
+					<input type="text" id="descripcion" >
+
+					<label for="costoinversion">Costo inv. *</label> <!--Costo del servicio.-->
+					<input type="text" id="costoinversion" >
+
+					<label for="pre_publico">Precio al publico *</label> <!--Costo al publico.-->
+					<input type="text" id="pre_publico" >
+
+					<label for="pre_cliente">Precio a cliente *</label> <!--Costo al cliente.-->
+					<input type="text" id="pre_cliente" >
+
+					<input type="button" value="Guardar producto"  id="btn_enviar">
+
+		</div>
+	</form>
+</section>
+
+</body>
+</html>

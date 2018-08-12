@@ -1,0 +1,9 @@
+Diseno de un punto de venta.
+
+[Caracteristicas]
+
+* Realizar ventas.
+* Llevar un registro de productos.
+* Llevar un registro de las entradas / gastos de materia prima.
+* Generar reportes diarios, semanales y mensuales de entradas de capital y salidas.
+* LLevar un control sobre los clientes.
